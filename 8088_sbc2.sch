@@ -651,8 +651,6 @@ F 3 "" H 9300 850 60  0000 C CNN
 	1    9300 850 
 	1    0    0    -1  
 $EndComp
-Text Label 8350 1450 0    60   ~ 0
-nFRAMEN
 Text Label 8350 1350 0    60   ~ 0
 nRAMHIEN
 Text Label 8350 1250 0    60   ~ 0
@@ -2653,8 +2651,6 @@ Wire Wire Line
 	9000 1250 9000 1200
 Wire Wire Line
 	8200 1550 8350 1550
-Wire Wire Line
-	8200 1450 8350 1450
 Connection ~ 6450 1850
 Wire Wire Line
 	6450 1850 6200 1850
@@ -2953,4 +2949,5 @@ Wire Wire Line
 	11300 3400 11300 3500
 Wire Wire Line
 	10600 3450 10600 2900
+NoConn ~ 8200 1450
 $EndSCHEMATC
